@@ -3,14 +3,37 @@
   --et-color-2: #ffcc2a;
 }
 
-body {
-  color: white;
-  color: var(--et-color-1) !important;
-  font-family: "Inter";
-}
+/* body { */
+/* color: white; */
+/* color: var(--et-color-1) !important; */
+/* font-family: "Inter"; */
+/* } */
 
 .social-links ul li {
   display: inline;
+  list-style-type: none;
+}
+
+.social-links i {
+  font-size: 18px;
+}
+
+.footer-social-links li {
+  padding: 0 3px;
+}
+
+.footer-social-links > li > a {
+  padding: 15px;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.footer-social-links > li > a:hover {
+  color: red !important;
+  background-color: var(--et-color-2);
+  border-radius: 50%;
 }
 
 .social-links i.fa {
@@ -48,8 +71,76 @@ i.fa-circle-xmark {
   font-weight: 600;
 }
 
-/* .carousel-item {
-  background-color: rgba(18, 117, 150, 0.247) !important;
-  background-blend-mode: saturation;
-  z-index: 0;
+.jumbotron {
+  height: 100% !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/* .staff:hover {
+  box-sizing: border-box;
+  transform: scale(150%);
 } */
+
+.footer {
+  color: var(--et-color-1);
+  background-color: rgba(27, 122, 71, 0.3);
+  padding: 10px 0;
+}
+
+.footer-contact ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul p,
+ul a {
+  color: var(--et-color-1);
+  text-decoration: none;
+  margin: 0;
+}
+
+.flex {
+  justify-content: space-between !important;
+}
+
+.footer-links,
+.footer-links li {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-quote {
+  /* background-color: rgba(0, 25, 0, 0.2); */
+  background-color: var(--et-color-1);
+  color: white;
+  padding: 20px 30px;
+}
+
+.footer-quote p {
+  line-height: 1.2;
+  font-size: 17px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.et-btn {
+  border: 0 !important;
+  outline: 0 !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  padding: 10px 20px !important;
+  border-radius: 30px !important;
+  color: var(--et-color-1) !important;
+  background-color: whitesmoke !important;
+}
+
+.et-btn:hover {
+  background-color: var(--et-color-2) !important;
+}
