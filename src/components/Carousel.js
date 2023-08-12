@@ -1,4 +1,3 @@
-import "bootstrap/dist/css/bootstrap.min.css";
 import "../assets/css/Carousel.css";
 
 export default function Carousel() {
