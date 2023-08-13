@@ -8,7 +8,7 @@ export default function Navbar() {
     <section className="header">
       <div className="container-fluid p-0">
         <nav
-          className="navbar navbar-expand-lg py-0"
+          className="navbar fixed-top navbar-expand-lg py-0"
           style={{ backgroundColor: "whitesmoke" }}
         >
           <div className="container">
