@@ -3,7 +3,7 @@ import AboutService from "./AboutService";
 
 export default function About() {
   return (
-    <section className="about">
+    <section className="about pt-5">
       <div
         className="about-bg py-5"
         style={{
