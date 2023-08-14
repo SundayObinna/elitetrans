@@ -4,6 +4,16 @@ import AboutService from "./AboutService";
 export default function About() {
   return (
     <section className="about">
+      <div
+        className="about-bg py-5"
+        style={{
+          backgroundImage:
+            "linear-gradient(45deg, var(--et-color-1), var(--et-color-2))",
+          color: "whitesmoke",
+        }}
+      >
+        <h1 className="text-center py-5 my-5">About</h1>
+      </div>
       <div className="container">
         <div className="row my-3">
           <div className="col-12 col-md-6 mb-3">
