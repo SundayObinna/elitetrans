@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../App.css";
 
 export default function AboutService() {
@@ -35,9 +36,9 @@ export default function AboutService() {
                 ipsum.
               </p>
               <div className="btn-box">
-                <a className="btn et-btn" href="./">
+                <Link className="btn et-btn" to="/ambulatory">
                   Read More&nbsp;<i className="fas fa-arrow-right"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -66,9 +67,9 @@ export default function AboutService() {
                 ipsum.
               </p>
               <div className="btn-box">
-                <a className="btn et-btn" href="./">
+                <Link className="btn et-btn" to="/specialized">
                   Read More&nbsp;<span className="fas fa-arrow-right"></span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -97,9 +98,9 @@ export default function AboutService() {
                 ipsum.
               </p>
               <div className="btn-box">
-                <a className="btn et-btn" href="./">
+                <Link className="btn et-btn" to="/sale-rental">
                   Read More&nbsp;<span className="fas fa-arrow-right"></span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
