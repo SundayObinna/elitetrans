@@ -63,7 +63,12 @@ export default function Contact() {
                           <span className="fas fa-phone"></span>&nbsp;Call
                         </h3>
                         <p>
-                          <a href="tel:+15553548387267">+1-(555)-ELITETRANS</a>
+                          <a
+                            className="et-btn"
+                            href="tel:+15553548387267"
+                          >
+                            +1-(555)-ELITETRANS
+                          </a>
                         </p>
                       </div>
                       <div className="col-xl-6">
@@ -71,7 +76,10 @@ export default function Contact() {
                           <span className="fas fa-envelope"></span>&nbsp;Email
                         </h3>
                         <p>
-                          <a href="mailto:info@elitetrans.us">
+                          <a
+                            className="et-btn"
+                            href="mailto:info@elitetrans.us"
+                          >
                             info@elitetrans.us
                           </a>
                         </p>
@@ -85,15 +93,15 @@ export default function Contact() {
         </div>
       </div>
       <div className="row mt-3 map">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d100866.84702314694!2d144.963151!3d-37.811385!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642b8c21cb29b%3A0x1c045678462e3510!2sMelbourne%20VIC%203000%2C%20Australia!5e0!3m2!1sen!2sus!4v1692006415207!5m2!1sen!2sus"
-            height="450"
-            className="b-0 m-0 p-0 w-100"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-            title="map"
-          ></iframe>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d100866.84702314694!2d144.963151!3d-37.811385!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642b8c21cb29b%3A0x1c045678462e3510!2sMelbourne%20VIC%203000%2C%20Australia!5e0!3m2!1sen!2sus!4v1692006415207!5m2!1sen!2sus"
+          height="450"
+          className="b-0 m-0 p-0 w-100"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="map"
+        ></iframe>
       </div>
     </section>
   );
