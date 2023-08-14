@@ -1,18 +1,20 @@
 import "../App.css";
-import AboutService from "./AboutService";
+import Jumbotron from "./Jumbotron";
 import MedicalService from "./MedicalService";
 import ServiceHighlight from "./ServiceHighlight";
+import AboutService from "./AboutService";
 import Trusted from "./Trusted";
 
 export default function Main() {
   return (
-    <>
-      <section className="container py-5">
+    <section>
+      <Jumbotron />
+      <div className="container py-5">
         <MedicalService />
         <ServiceHighlight />
         <AboutService />
-      </section>
+      </div>
       <Trusted />
-    </>
+    </section>
   );
 }
