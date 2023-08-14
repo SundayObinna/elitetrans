@@ -1,9 +1,8 @@
+import { Link } from "react-router-dom";
 import "../App.css";
 import logo from "../assets/images/eliteTrans_icon_no-bg.png";
 
 export default function Navbar() {
-  const noRef = null; // To numb the <a> links
-
   return (
     <section className="header">
       <div className="container-fluid p-0">
@@ -12,14 +11,14 @@ export default function Navbar() {
           style={{ backgroundColor: "whitesmoke" }}
         >
           <div className="container">
-            <a className="navbar-brand" href={noRef}>
+            <Link to="/" className="navbar-brand">
               <img
                 className="img-fluid"
                 src={logo}
                 alt="eliteTrans"
                 width={100}
               />
-            </a>
+            </Link>
             <span
               className="navbar-toggler border-0"
               type="button"
@@ -52,54 +51,58 @@ export default function Navbar() {
               <div className="offcanvas-body">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
                   <li className="nav-item">
-                    <a
+                    <Link
+                      to="/"
                       className="nav-link active"
                       aria-current="page"
-                      href={noRef}
                     >
                       Home
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item dropdown">
-                    <a
+                    <Link
+                      to=""
                       className="nav-link"
-                      href={noRef}
                       role="button"
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
                     >
                       Services&nbsp;<i className="fas fa-chevron-down"></i>
-                    </a>
+                    </Link>
                     <ul className="dropdown-menu et-dropdown">
                       <li>
-                        <a className="dropdown-item" href={noRef}>
+                        <Link to="/ambulatory" className="dropdown-item">
                           Ambulatory Service
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a className="dropdown-item" href={noRef}>
+                        <Link to="/specialized" className="dropdown-item">
                           Specialized Care Service
-                        </a>
+                        </Link>
                       </li>
                       <li>
                         <hr className="dropdown-divider" />
                       </li>
                       <li>
-                        <a className="dropdown-item" href={noRef}>
+                        <Link to="sale-rental" className="dropdown-item">
                           Vehicle Sale/Rental Service
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href={noRef}>
+                    <Link to="/about" className="nav-link">
                       About us
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" aria-disabled="true" href={noRef}>
+                    <Link
+                      to="/contact"
+                      className="nav-link"
+                      aria-disabled="true"
+                    >
                       Contact
-                    </a>
+                    </Link>
                   </li>
                 </ul>
                 {/* <form className="d-flex" role="search">
@@ -116,22 +119,22 @@ export default function Navbar() {
                 <div className="social-links d-flex align-items-center">
                   <ul className="p-0 mb-0">
                     <li>
-                      <a href={noRef}>
+                      <a href="./">
                         <i className="fa fa-facebook"></i>
                       </a>
                     </li>
                     <li>
-                      <a href={noRef}>
+                      <a href="./">
                         <i className="fa fa-instagram"></i>
                       </a>
                     </li>
                     <li>
-                      <a href={noRef}>
+                      <a href="./">
                         <i className="fa fa-google"></i>
                       </a>
                     </li>
                     <li>
-                      <a href={noRef}>
+                      <a href="./">
                         <i className="fa fa-twitter"></i>
                       </a>
                     </li>
