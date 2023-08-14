@@ -15,13 +15,18 @@ export default function Trusted() {
           </div>
 
           <div className="col-md-4">
-            <h3>
+            <h3 style={{ color: "maroon" }}>
               Find out Why Our Services
               <br /> Are Trusted
             </h3>
-            <p>
+            <p style={{ color: "maroon", fontWeight: "700" }}>
               Call anytime:&nbsp;
-              <a style={{color: "whitesmoke", textDecoration: "none"}} href="tel:+5553848387267">+ 1-(555)-ELITETRANS</a>
+              <a
+                style={{ color: "whitesmoke", textDecoration: "none" }}
+                href="tel:+5553848387267"
+              >
+                + 1-(555)-ELITETRANS
+              </a>
             </p>
           </div>
 
