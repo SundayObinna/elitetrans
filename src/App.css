@@ -177,3 +177,7 @@ ul a {
 img.img-fluid.animate__pulse {
   animation-duration: infinite;
 }
+
+.et-about-list li {
+  list-style-type: none;
+}
