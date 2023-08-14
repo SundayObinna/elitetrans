@@ -144,3 +144,36 @@ ul a {
 .et-btn:hover {
   background-color: var(--et-color-2) !important;
 }
+
+/* .et-link {
+  color: var(--et-color-1);
+  text-decoration: none;
+}
+
+.et-link:hover {} */
+
+.fas,
+.fa-solid {
+  color: var(--et-color-1);
+}
+
+.service-highlight i {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.about-service .col-md-4\ {
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+  border: 1px solid transparent;
+  /* transition: box-shadow 1s; */
+}
+
+.about-service .col-md-4:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  /* border: 1px solid var(--et-color-1); */
+  transition: box-shadow 1s;
+}
+
+img.img-fluid.animate__pulse {
+  animation-duration: infinite;
+}
