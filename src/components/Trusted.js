@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../App.css";
 import "animate.css";
 
@@ -31,9 +32,9 @@ export default function Trusted() {
           </div>
 
           <div className="col-md-4">
-            <a className="btn et-btn" href="./">
+            <Link className="btn et-btn" to="/contact">
               Contact Us&nbsp;<span className="fas fa-arrow-right"></span>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

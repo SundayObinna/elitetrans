@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../App.css";
 
 export default function MedicalServic() {
@@ -77,14 +78,14 @@ export default function MedicalServic() {
               </div>
 
               <div className="btns-box">
-                <a
+                <Link
                   className="btn btn-lg et-btn"
                   style={{ fontSize: "50px", padding: "50px" }}
-                  href="https://fastwpdemo.com/newwp/ambons/about-block-01/"
+                  to="/about"
                 >
                   Discover More About Us&nbsp;
                   <i className="fa-solid fa-arrow-right"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
