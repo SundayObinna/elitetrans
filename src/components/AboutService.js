@@ -14,14 +14,6 @@ export default function AboutService() {
         <div className="col-md-4 mb-3">
           <div
             className="single-service-style1 wow fadeInUp animated"
-            data-wow-delay="100ms"
-            data-wow-duration="1500ms"
-            // style={{
-            //   visibility: "visible",
-            //   animationDuration: "1500ms",
-            //   animationDelay: "100ms",
-            //   animationName: "fadeInUp",
-            // }}
           >
             <div className="img-holder">
               <img
@@ -53,14 +45,6 @@ export default function AboutService() {
         <div className="col-md-4 mb-3">
           <div
             className="single-service-style1 wow fadeInUp animated"
-            data-wow-delay="100ms"
-            data-wow-duration="1500ms"
-            // style={{
-            //   visibility: "visible",
-            //   animationDuration: "1500ms",
-            //   animationDelay: "100ms",
-            //   animationName: "fadeInUp",
-            // }}
           >
             <div className="img-holder">
               <img
@@ -92,14 +76,6 @@ export default function AboutService() {
         <div className="col-md-4 mb-3">
           <div
             className="single-service-style1 wow fadeInUp animated"
-            data-wow-delay="100ms"
-            data-wow-duration="1500ms"
-            // style={{
-            //   visibility: "visible",
-            //   animationDuration: "1500ms",
-            //   animationDelay: "100ms",
-            //   animationName: "fadeInUp",
-            // }}
           >
             <div className="img-holder">
               <img
