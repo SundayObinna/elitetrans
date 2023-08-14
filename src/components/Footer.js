@@ -1,23 +1,22 @@
+import { Link } from "react-router-dom";
 import "../App.css";
 import footerLogo from "../assets/images/eliteTrans_icon_no-bg.png";
 
 export default function Footer() {
-  const noRef = null;
-
   return (
     <footer className="footer py-5">
       <div className="container">
         <div className="row footer-top py-4 d-flex h-100 justify-content-center">
           <div className="col-md-3 text-lg-start text-center mb-4">
             <div className="footer-logo">
-              <a href="./">
+              <Link to="/">
                 <img
                   className="img-fluid"
                   width={100}
                   alt="eliteTrans"
                   src={footerLogo}
                 />
-              </a>
+              </Link>
             </div>
             <div className="footer-tagline">
               <p>On time, all the time</p>
@@ -56,16 +55,16 @@ export default function Footer() {
             <h4>Quick Links</h4>
             <ul className="footer-links">
               <li>
-                <a href={noRef}>Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <a href={noRef}>About us</a>
+                <Link to="/about">About us</Link>
               </li>
               <li>
-                <a href={noRef}>Services</a>
+                <Link to="/services">Services</Link>
               </li>
               <li>
-                <a href={noRef}>Contact</a>
+                <Link to="/contact">Contact</Link>
               </li>
             </ul>
           </div>
@@ -74,13 +73,13 @@ export default function Footer() {
             <h4>Services</h4>
             <ul className="footer-links">
               <li>
-                <a href={noRef}>Ambulatory Service</a>
+                <Link to="/ambulatory">Ambulatory Service</Link>
               </li>
               <li>
-                <a href={noRef}>Specialized Care Service</a>
+                <Link to="/specialized">Specialized Care Service</Link>
               </li>
               <li>
-                <a href={noRef}>Vehicle Sale/Rental Service</a>
+                <Link to="/sale-rental">Vehicle Sale/Rental Service</Link>
               </li>
             </ul>
           </div>
@@ -89,7 +88,7 @@ export default function Footer() {
             <div className="footer-quote text-center">
               <h3 style={{ fontSize: "20px" }}>We can help, today.</h3>
               <p>24 hours a day, 7 days a week support.</p>
-              <a href={noRef} className="btn btn-primary et-btn">
+              <a href="./" className="btn btn-primary et-btn">
                 Get A Free Quote
               </a>
             </div>
@@ -99,38 +98,38 @@ export default function Footer() {
           <div className="copyright d-flex h-100 justify-content-center align-items-center col-12 col-md-6">
             <p>
               Copyright&nbsp;&copy;&nbsp;2023&nbsp;
-              <a
+              <Link
                 style={{
                   fontWeight: "bold",
                   color: "var(--et-color-1)",
                   textDecoration: "none",
                 }}
-                href="./"
+                to="/"
               >
                 eliteTrans
-              </a>
+              </Link>
               .&nbsp;All Rights Reserved.
             </p>
           </div>
           <div className="social-links col-12 col-md-6">
             <ul className="p-0 mb-0 footer-social-links">
               <li>
-                <a href={noRef}>
+                <a href="./">
                   <i className="fa fa-facebook"></i>
                 </a>
               </li>
               <li>
-                <a href={noRef}>
+                <a href="./">
                   <i className="fa fa-instagram"></i>
                 </a>
               </li>
               <li>
-                <a href={noRef}>
+                <a href="./">
                   <i className="fa fa-google"></i>
                 </a>
               </li>
               <li>
-                <a href={noRef}>
+                <a href="./">
                   <i className="fa fa-twitter"></i>
                 </a>
               </li>
