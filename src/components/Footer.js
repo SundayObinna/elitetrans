@@ -5,10 +5,10 @@ export default function Footer() {
   const noRef = null;
 
   return (
-    <footer className="footer">
+    <footer className="footer py-5">
       <div className="container">
-        <div className="row footer-top py-4">
-          <div className="col-md-3">
+        <div className="row footer-top py-4 d-flex h-100 justify-content-center">
+          <div className="col-md-3 text-lg-start text-center mb-4">
             <div className="footer-logo">
               <a href="./">
                 <img
@@ -51,8 +51,8 @@ export default function Footer() {
               </ul>
             </div>
           </div>
-          {/* <hr class="d-none d-sm-block" /> */}
-          <div className="col-md-3">
+
+          <div className="col-6 col-md-3 mb-4">
             <h4>Quick Links</h4>
             <ul className="footer-links">
               <li>
@@ -69,8 +69,8 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          {/* <hr class="d-none d-sm-block" /> */}
-          <div className="col-md-3">
+
+          <div className="col-6 col-md-3 mb-4">
             <h4>Services</h4>
             <ul className="footer-links">
               <li>
@@ -84,64 +84,57 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          {/* <hr class="d-none d-sm-block" /> */}
+
           <div className="col-md-3">
             <div className="footer-quote text-center">
               <h3 style={{ fontSize: "20px" }}>We can help, today.</h3>
-              <p>
-                24 hours a day, 7 days a week support.
-              </p>
-              <a
-                href={noRef}
-                className="btn btn-primary et-btn"
-              >
+              <p>24 hours a day, 7 days a week support.</p>
+              <a href={noRef} className="btn btn-primary et-btn">
                 Get A Free Quote
               </a>
             </div>
           </div>
         </div>
-        <div className="row footer-bottom py-4">
-          <div className="row flex text-center">
-            <div className="copyright col-12 col-md-6">
-              <p>
-                Copyright&nbsp;&copy;&nbsp;2023&nbsp;
-                <a
-                  style={{
-                    fontWeight: "bold",
-                    color: "var(--et-color-1)",
-                    textDecoration: "none",
-                  }}
-                  href="./"
-                >
-                  eliteTrans
+        <div className="row flex text-center footer-bottom py-4">
+          <div className="copyright d-flex h-100 justify-content-center align-items-center col-12 col-md-6">
+            <p>
+              Copyright&nbsp;&copy;&nbsp;2023&nbsp;
+              <a
+                style={{
+                  fontWeight: "bold",
+                  color: "var(--et-color-1)",
+                  textDecoration: "none",
+                }}
+                href="./"
+              >
+                eliteTrans
+              </a>
+              .&nbsp;All Rights Reserved.
+            </p>
+          </div>
+          <div className="social-links col-12 col-md-6">
+            <ul className="p-0 mb-0 footer-social-links">
+              <li>
+                <a href={noRef}>
+                  <i className="fa fa-facebook"></i>
                 </a>
-                .&nbsp;All Rights Reserved.
-              </p>
-            </div>
-            <div className="social-links col-12 col-md-6">
-              <ul className="p-0 mb-0 footer-social-links">
-                <li>
-                  <a href={noRef}>
-                    <i className="fa fa-facebook"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href={noRef}>
-                    <i className="fa fa-instagram"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href={noRef}>
-                    <i className="fa fa-google"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href={noRef}>
-                    <i className="fa fa-twitter"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
+              </li>
+              <li>
+                <a href={noRef}>
+                  <i className="fa fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href={noRef}>
+                  <i className="fa fa-google"></i>
+                </a>
+              </li>
+              <li>
+                <a href={noRef}>
+                  <i className="fa fa-twitter"></i>
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
