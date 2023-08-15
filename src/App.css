@@ -181,3 +181,47 @@ img.img-fluid.animate__pulse {
 .et-about-list li {
   list-style-type: none;
 }
+
+.et-option-list > li {
+  list-style-type: none;
+  padding: 15px 0px;
+  font-size: 20px;
+}
+
+.service-nav li,
+.service-nav a {
+  background-color: var(--et-color-1) !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.service-nav li:hover,
+.service-nav a:hover {
+  background-color: var(--et-color-2) !important;
+  color: var(--et-color-1) !important;
+  text-decoration: underline !important;
+}
+
+.text-justify {
+  text-align: justify !important;
+}
+
+div.col-md-4.p-4 {
+  background-color: lightgrey;
+  color: var(--et-color-1);
+}
+
+div.col-md-4.p-4:hover {
+  color: var(--et-color-1);
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  transition: box-shadow 0.3s;
+}
+
+div.accordion-item:nth-child(1) > h2:nth-child(1) > button:nth-child(1),
+div.accordion-item:nth-child(2) > h2:nth-child(1) > button:nth-child(1),
+div.accordion-item:nth-child(3) > h2:nth-child(1) > button:nth-child(1) {
+  color: var(--et-color-1);
+  background-color: white;
+}
