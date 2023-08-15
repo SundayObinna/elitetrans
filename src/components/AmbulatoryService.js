@@ -24,9 +24,9 @@ export default function AmbulatoryService() {
                 src="https://fastwpdemo.com/newwp/ambons/wp-content/uploads/2022/02/service-details-1-img1.jpg"
               />
             </div>
-            <div className="mt-5 text-justify">
-              <h1>Ambulatory Service</h1>
-              <p>
+            <div className="mt-5">
+              <h1 className="text-center">Ambulatory Service</h1>
+              <p className="text-justify">
                 Aliquam egestas dolor at ullamcorper accumsan refreshing. Neque
                 porro est qui dolorem ipsum quia quaed inventore veritatis et
                 quasi architecto beatae vitae dicta sunt explicabo. Aelltes port
@@ -35,7 +35,7 @@ export default function AmbulatoryService() {
                 and typesetting industry. Lorem Ipsum has been the ndustry
                 standard dummy text ever since the 1500s.{" "}
               </p>
-              <p>
+              <p className="text-justify">
                 t has survived not only five centuries. Lorem Ipsum is simply
                 dummy text of the new design printng and type setting Ipsum take
                 a look at our round. When an unknown printer took a galley of
@@ -45,14 +45,14 @@ export default function AmbulatoryService() {
               </p>
             </div>
             <div className="row my-5">
-              <div className="col-md-4 mx-auto p-4 py-5">
+              <div className="col-md-4 mx-auto p-4 py-5 my-3">
                 <h4>
                   <i className="fas fa-arrow-right"></i>&nbsp;Help us Save a
                   Life
                 </h4>
                 <p>Proin gravida, urna et cursus aliquam, velit felis</p>
               </div>
-              <div className="col-md-4 mx-auto p-4 py-5">
+              <div className="col-md-4 mx-auto p-4 py-5 my-3">
                 <h4>
                   <i className="fas fa-arrow-right"></i>&nbsp;Join our Big
                   Family
