@@ -1,9 +1,13 @@
 import "../App.css";
+import { Helmet } from "react-helmet";
 import ServicesSidebar from "./ServicesSidebar";
 
 export default function AmbulatoryService() {
   return (
     <section className="ambulatory">
+      <Helmet>
+        <title>Ambulatory Service : eliteTrans</title>
+      </Helmet>
       <div
         className="about-bg py-5"
         style={{

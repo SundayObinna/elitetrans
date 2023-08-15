@@ -1,9 +1,13 @@
 import "../App.css";
+import { Helmet } from "react-helmet";
 import AboutService from "./AboutService";
 
 export default function About() {
   return (
     <section className="about pt-5">
+      <Helmet>
+        <title>About : eliteTrans</title>
+      </Helmet>
       <div
         className="about-bg py-5"
         style={{

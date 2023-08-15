@@ -1,9 +1,13 @@
 import "../App.css";
+import { Helmet } from "react-helmet";
 import ServicesSidebar from "./ServicesSidebar";
 
 export default function SaleRental() {
   return (
     <section className="sale-rental">
+      <Helmet>
+        <title>Vehicle Sale/Rental Service : eliteTrans</title>
+      </Helmet>
       <div
         className="about-bg py-5"
         style={{

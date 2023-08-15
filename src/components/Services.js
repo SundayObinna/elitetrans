@@ -1,9 +1,13 @@
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 import "../App.css";
 
 export default function Services() {
   return (
     <section className="services">
+      <Helmet>
+        <title>Services : eliteTrans</title>
+      </Helmet>
       <div
         className="service-bg py-5"
         style={{

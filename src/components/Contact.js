@@ -1,8 +1,12 @@
 import "../App.css";
+import { Helmet } from "react-helmet";
 
 export default function Contact() {
   return (
     <section className="contact pt-5">
+      <Helmet>
+        <title>Contact : eliteTrans</title>
+      </Helmet>
       <div
         className="contact-bg py-5"
         style={{
