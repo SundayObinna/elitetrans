@@ -225,3 +225,23 @@ div.accordion-item:nth-child(3) > h2:nth-child(1) > button:nth-child(1) {
   color: var(--et-color-1);
   background-color: white;
 }
+
+/* Carousel */
+.slide-img {
+  height: 100% !important;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.63);
+  padding: 30px;
+}
+
+.fas.control {
+  color: white !important;
+}
+
+@media (min-width: 768px) {
+  .fas.control {
+    font-size: 50px !important;
+  }
+}
