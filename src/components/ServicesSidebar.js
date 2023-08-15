@@ -32,7 +32,7 @@ export default function ServicesSidebar() {
           connect you with a team member who can help.
         </p>
         <h3 className="text-center">
-          <a className="et-btn" href="tel:+1555">
+          <a className="et-btn" href="tel:+15553548387267">
             +1-(555)-ELITETRANS
           </a>
         </h3>
