@@ -1,8 +1,40 @@
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../App.css";
 import logo from "../assets/images/eliteTrans_icon_no-bg.png";
 
 export default function Navbar() {
+  useEffect(() => {
+    const handleLinkClick = () => {
+      if (
+        window.innerWidth <= 768 &&
+        document.querySelector(".offcanvas.show")
+      ) {
+        document.querySelector(".offcanvas").classList.remove("show");
+        document.querySelector(".offcanvas-backdrop").classList.remove("show");
+        const pageContent =
+          document.querySelector(".App .navbar").nextElementSibling;
+        console.log(`${pageContent}\n`);
+        if (pageContent) {
+          console.log(pageContent.getAttribute("class"));
+          pageContent.focus();
+          console.log(`${pageContent} found!`);
+        }
+      }
+    };
+
+    const navLinks = document.querySelectorAll(".offcanvas a");
+    navLinks.forEach((link) => {
+      link.addEventListener("click", handleLinkClick);
+    });
+
+    return () => {
+      navLinks.forEach((link) => {
+        link.removeEventListener("click", handleLinkClick);
+      });
+    };
+  }, []);
+
   return (
     <section className="header">
       <div className="container-fluid p-0">
